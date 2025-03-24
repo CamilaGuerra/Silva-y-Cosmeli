@@ -1,0 +1,637 @@
+/* 
+Theme Name: Silva y Cosmeli
+Theme URI: www.silvaycosmeli.cl
+Description: Sitio web de la agencia de arquitectos, Silva y Cosmeli.
+Version: 1.0
+Author: Halimak
+Author URI: http://www.skemak.cl
+*/
+
+
+
+/* -----------------------MENÚ------------------------*/
+.navbar a span{
+    color: black;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.navbar a span:hover {
+    font-weight: 500;
+    color: #FF343B;
+}
+
+/* -----------------------FIN MENÚ------------------------*/
+
+/* -----------------------PÁGINA inicio------------------------*/
+.inicio {
+    background: url('img/fondo-1.jpg') 50% 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+
+.inicio .col-md-5 {
+    border-radius: 4px;
+    padding: 50px 20px;
+    margin-left: 200px;
+}
+
+.inicio h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    padding-bottom:95px;   
+    height: 90px;
+    text-shadow: 3px 3px 8px rgb(255, 255, 255);
+    color: black;
+    letter-spacing: 3px;
+}
+
+.inicio .subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-top: 3px black solid;
+}
+
+.mascara {
+    background-color: rgba(202, 202, 202, 0.156);
+    padding: 100px 0px;
+    
+}
+
+
+
+/* slider auspiciadores*/
+
+.single-logo-container img{
+    width: 180px;
+}
+
+.marcas {
+    margin-bottom: 120px;
+}
+
+/*  FIN slider auspiciadores*/
+
+
+.mini-servicio hr{
+    height: 5px;
+    width: 100px;
+    color: #FF343B;
+    opacity: 100%;
+    margin-top: 0;
+}
+
+.mini-servicio h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+.mini-img-trabajos img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0px 0px 6px black;
+}
+
+.mini-trabajo h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.mini-trabajo h4{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.mini-trabajo hr{
+    height: 5px;
+    width: 80px;
+    color: #FF343B;
+    opacity: 100%;
+    margin-top: 0;
+}
+
+.mini-somos{
+    background-color: black;
+    margin-top: 70px;
+    padding: 50px 0px;
+}
+
+.mini-somos h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    color: white;
+    
+}
+
+.mini-somos .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* ----------------------- FIN PÁGINA INICIO----------------------*/
+
+/* -----------------------  PAGINA SERVICIOS ----------------------*/
+
+.servicios{
+    background: url(img/servicios/fondo.jpg) no-repeat 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px black;
+    margin-bottom: 200px;
+}
+
+.iconos .icon i {
+    background-color: white;
+    color: #FF343B;
+    padding: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.iconos .icon i:hover{
+    color: white;
+    background: #FF343B;
+    transform: scale(1.09);
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.iconos .icon{
+    font-size: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.mascara2{
+    background: #0000009d;
+    padding: 230px 0px;
+    color: white;
+    text-shadow: black 3px 2px 5px;
+}
+
+.mascara2 h2 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.loop-servicios h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#181818;
+}
+
+.descripcion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.loop-servicios iframe {
+    width: 350px;
+    height: 195px;
+}
+
+.slider {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor .col-md-5 {
+    display: grid;
+    grid-template-rows: 0fr 0fr 0fr 1fr 0fr;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.contenedor .col-md-5 hr {
+    height: 5px;
+    width: 100px;
+    color: #FF343B;
+    opacity: 100%;
+    margin-top: 0;
+}
+
+
+.loop-servicios {
+    margin-bottom: 100px;
+}
+
+/* ----------------------- FIN PAGINA SERVICIOS ----------------------*/
+
+
+
+/* ----------------------- PAGINA TRABAJOS ----------------------*/
+.trabajos{
+    background: url(img/trabajos-fondo.jpg) no-repeat 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px black;
+    margin-bottom: 50px;
+}
+
+.mascara3{
+    background: #0000009d;
+    padding: 230px 0px;
+    color: white;
+    text-shadow: black 3px 2px 5px;
+}
+
+.mascara3 h2 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.p-trabajos h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.p-trabajos a{
+    font-size: 15px;
+    padding: 5px 13px;
+}
+
+.img-trabajos img{
+    max-width: 100%;
+    width: 500px;
+    min-width: 80px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 1px 1px 4px black;
+}
+
+.single-fondo{
+    background: url(img/single-fondo.jpg) 50% 0 no-repeat;
+    background-size: cover;
+}
+
+.bg-single{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+}
+.mascara4 {
+    background-color: rgba(255, 255, 255, 0.523);
+}
+
+.derecha h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.fondo-single{
+    margin: 100px 0px;
+    padding: 100px 0px;
+}
+
+.g-imagenes img {
+    width: 350px ;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+.g-imagenes img:hover{
+    transform: scale(1.08);
+}
+
+.g-imagenes {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.single-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 60px;
+    border-bottom: #FF343B solid 4px;
+}
+
+.parrafo-single {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.contenedor-arriba{
+    margin-bottom: 70px;
+}
+
+.boton-single {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.paginacion {
+    display: flex;
+    justify-content: center;
+    color: #FF343B;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+
+.paginacion a, .paginacion span{
+    box-shadow: 1px 1px 4px black;
+    border-radius: 3px;
+}
+
+.paginacion a {
+    color: #FF343B;
+}
+
+/* ----------------------- FIN PAGINA TRABAJOS ----------------------*/
+
+/* ----------------------- PAGINA SOMOS ----------------------*/
+
+.mascara5{
+    background-color: rgba(0, 0, 0, 0.523);
+    padding: 230px 0px;
+    color: white;
+}
+
+.mascara5 h2{
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+.somos{
+    background: url(img/somos/fondo.jpeg) no-repeat 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px black;
+    margin-bottom: 150px;
+}
+
+.img-empresa img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px black;
+}
+
+.descripcion-empresa h6 {
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.descripcion-empresa h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.descripcion-empresa hr{
+    opacity: 100%;
+    color:#FF343B;
+    width: 150px;
+    height: 6px;
+    margin-bottom: 30px;
+}
+
+.arriba-somos{
+    margin-bottom: 150px;
+}
+
+.fondo-blanco h3{
+    text-align: center;
+    border-bottom: #FF343B solid 4px;
+    color:rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 130px;
+}
+
+.fondo-blanco {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    padding: 100px 0px 50px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.inte{
+    margin-bottom: 50px;
+}
+
+.inte img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgb(183, 183, 183);
+    margin-bottom: 10px;
+}
+
+.inte h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.inte h5{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF343B;
+    font-size: 19px;
+}
+
+.inte img:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.redes {
+    background: url(img/somos/fondo.jpg) 50% 0  no-repeat;
+    background-position-y: -80px;
+    background-position-x: -0.5px;
+    background-size: cover;
+    padding: 115px 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.redes .iconoo i{
+    color: white;
+    border-radius: 100%;
+    background: #FF343B;
+    padding: 40px 45px;
+    box-shadow: 0px 0px 7px black;
+    font-size: 90px;
+}
+
+.redes .face i{
+    padding: 40px 57px;
+}
+
+
+.redes .col-md-3 {
+    padding: 20px 0px;
+}
+
+.redes i:hover{
+    color: #FF343B;
+    background: white;
+    cursor: pointer;
+}
+
+/* ----------------------- FIN PAGINA SOMOS ----------------------*/
+
+/* ----------------------- PAGINA CONTACTO ----------------------*/
+
+.mascara6{
+    background-color: rgba(232, 232, 232, 0.208);
+    padding: 230px 0px;
+    color: white;
+}
+
+.mascara6 h2{
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+.contacto{
+    background: url(img/contactanos/fondo-1.jpeg) no-repeat 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 10px black;
+}
+
+.formulario {
+    background-color: #FF343B;
+    box-shadow: 0px 3px 5px black;
+    padding: 350px 0px;
+}
+
+.formulario .col-md-8 label{
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0px 0px 4px black !important;
+}
+
+.formulario input{
+    border-radius: 30px;
+}
+#wpforms-submit-318{
+    color: black;
+    font-weight: 600;
+    box-shadow: 0px 0px 5px black;
+}
+
+.direccion h3{
+    font-size: 65px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.direccion h6{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.atencion {
+    margin-bottom: 30px;
+}
+
+.atencion p{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+}
+
+.atencion strong{
+    color: #FF343B;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:500px;
+}
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:700px;
+}
+
+/* ----------------------- FIN PAGINA CONTACTO ----------------------*/
+
+/* ----------------------- FOOTER ----------------------*/
+
+.footer {
+    background-color: black;
+    padding: 50px 0px;
+    border-top: white 1px solid;
+}
+
+footer .row{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+footer h6 {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
